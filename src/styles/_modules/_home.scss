@@ -9,9 +9,18 @@
 
     position: absolute;
 
-    border: 20px solid $ui-1;
+    border: none;
     background: #118aa1;
 
+    .content__overlay {
+      height: 100%;
+      width: 100%;
+
+      position: absolute;
+
+      background: #000;
+      opacity: .3;
+    }
     .scene {
       height: 100%;
     }
@@ -57,7 +66,7 @@
     .content {
       position: absolute;
       top: auto;
-      width: 80%;
+      text-align: center;
       transform: translateY(0);
       bottom: 18%;
       left: 5%;
@@ -76,7 +85,7 @@
 
       &__header-title {
         display: block;
-        color: $ui-10;
+        color: $ui-1;
         font-size: 30px;
         font-weight: 500;
         position: relative;
@@ -89,8 +98,9 @@
           width: 10%;
           height: 3px;
           position: absolute;
-          bottom: 5%;
-          left: 0;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
           background-color: $tint-6;
         }
       }
@@ -436,9 +446,15 @@
 @media #{$sm-up} {
   .container {
 
+    &__left-content {
+      border: 20px solid $ui-1;
+    }
+
     &__right-content {
 
       .content {
+        width: 80%;
+        text-align: left;
 
         &__header-label {
           font-size: 16px;
@@ -446,6 +462,12 @@
 
         &__header-title {
           font-size: 42px;
+
+          &:after {
+            bottom: 5%;
+            left: 0;
+            transform: none;
+          }
         }
 
         &__header-description {
@@ -470,6 +492,10 @@
       .scene {
         height: 100%;
       }
+
+      .content__overlay {
+        display: none;
+      }
     }
 
     &__right-content {
@@ -493,6 +519,7 @@
 
         &__header-title {
           font-size: 64px;
+          color: $ui-10;
         }
 
         &__header-description {
