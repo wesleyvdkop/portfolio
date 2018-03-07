@@ -1,0 +1,26 @@
+{
+  "GENERAL": {
+    "HEADER": "Wesley van der Kop",
+    "HEADER_LABEL": "Hallo, mijn naam is",
+    "HEADER_DESCRIPTION": "Ik ben een enthousiaste web developer & designer momenteel maak ik mooie producten bij Respond, terwijl ik nog een student ben. Als je wil weten waar ik aan toe ben bekijk dan mijn <a href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>LinkedIn</a> of als je intresse hebt in meer werk van mij neem dan contact op."
+  },
+  "WORK": {
+    "TITLE": "Werk",
+    "CAREER": "Carrière",
+    "PROJECTS": "Projecten",
+    "RESPOND": {
+      "TITLE": "Front-end Developer & Designer",
+      "TIME": "Begin 2017 - Nu"
+    },
+    "MEDIAMONKS": {
+      "TITLE": "Stagair Front-end Developer",
+      "TIME": "Midden 2016 - Eind 2016"
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Laten we in contact komen!",
+    "TITLE_LABEL": "Wat nu",
+    "DESCRIPTION": "Als je over de toekomst wil praten laat dan maar een bericht achter naar mail@wesleyvanderkop.nl. Ik ben altijd opzoek naar een uitdaging.",
+    "BUTTON": "Schrijf een email"
+  }
+}

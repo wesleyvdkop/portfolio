@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+  background: $background;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: $tint-6;
+  text-decoration: none;
+}

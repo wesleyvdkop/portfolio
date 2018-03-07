@@ -1,0 +1,26 @@
+{
+  "GENERAL": {
+    "HEADER": "Wesley van der Kop",
+    "HEADER_LABEL": "Hello, my name is",
+    "HEADER_DESCRIPTION": "I’m an enthusiastic web developer & designer currently making beautiful products at Respond, while being a student. You can find my what i'm up to at <a href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>LinkedIn</a> or if you're interested in more of my work get in contact with me."
+  },
+  "WORK": {
+    "TITLE": "Work",
+    "CAREER": "Career",
+    "PROJECTS": "Projects",
+    "RESPOND": {
+      "TITLE": "Front-end Developer & Designer",
+      "TIME": "Begin 2017 - Now"
+    },
+    "MEDIAMONKS": {
+      "TITLE": "Intern Front-end Developer",
+      "TIME": "Mid 2016 - Late 2016"
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Let's get in contact!",
+    "TITLE_LABEL": "What now",
+    "DESCRIPTION": "If you'd like to talk about the future, just drop me a message at mail@wesleyvanderkop.nl. I'm always up for a new challenge.",
+    "BUTTON": "Write an email"
+  }
+}
