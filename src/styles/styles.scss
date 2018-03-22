@@ -7,5 +7,6 @@
 @import './_base/_mixins.scss';
 
 // MODULES
-@import './_modules/_home.scss';
+@import '_modules/home/home';
+@import './_modules/modules';
 

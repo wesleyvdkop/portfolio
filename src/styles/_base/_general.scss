@@ -20,4 +20,25 @@ body {
 a {
   color: $tint-6;
   text-decoration: none;
+  position: relative;
+
+  &:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 2px;
+    background-color: $tint-6;
+    transition: all 0.2s ease-out;
+  }
+
+  &:hover {
+    &:after {
+      width: 110%;
+      left: -5%;
+    }
+  }
 }
