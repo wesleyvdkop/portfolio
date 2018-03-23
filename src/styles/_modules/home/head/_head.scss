@@ -42,7 +42,7 @@
         display: block;
         color: $tint-6;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: $header-label--small;
         line-height: 1.4em;
         letter-spacing: 0.21em;
         font-weight: 400;
@@ -53,7 +53,7 @@
       &__header-title {
         display: block;
         color: $ui-1;
-        font-size: 30px;
+        font-size: $header--small;
         font-weight: 500;
         position: relative;
 
@@ -62,7 +62,7 @@
         &:after {
           display: block;
           content: " ";
-          width: 10%;
+          width: 15%;
           height: 3px;
           position: absolute;
           bottom: 0;
@@ -77,7 +77,7 @@
         max-width: 480px;
         margin-top: 20px;
         font-family: 'karma', sans-serif;
-        font-size: 16px;
+        font-size: $general-text--small;
         line-height: 1.4em;
         font-weight: 400;
         color: $ui-1;
@@ -102,6 +102,93 @@
 
       img {
         margin-top: 12px;
+      }
+    }
+  }
+}
+
+// Media queries
+@media #{$sm-up} {
+  .container {
+
+    &__left-content {
+      border: 20px solid $ui-1;
+    }
+
+    &__right-content {
+      position: relative;
+      margin-left: 140px;
+
+      transform: unset;
+      left: unset;
+
+      .content {
+        width: 80%;
+        text-align: left;
+        left: 0;
+
+        &__header-label {
+          font-size: $header-label;
+        }
+
+        &__header-title {
+          font-size: $header--medium;
+
+          &:after {
+            width: 10%;
+            bottom: 5%;
+            left: 0;
+            transform: none;
+          }
+        }
+
+        &__header-description {
+          font-size: $general-text;
+        }
+      }
+    }
+  }
+}
+
+@media #{$lg-up} {
+  .container {
+    display: flex;
+    height: 100%;
+    position: relative;
+
+    &__left-content {
+      width: 40%;
+      position: relative;
+      border: 20px solid $ui-1;
+
+      .scene {
+        height: 100%;
+      }
+
+      .content__overlay {
+        display: none;
+      }
+    }
+
+    &__right-content {
+      width: 60%;
+
+      .content {
+        position: absolute;
+        top: auto;
+        width: 80%;
+        transform: translateY(0);
+        bottom: 18%;
+        left: 5%;
+
+        &__header-title {
+          font-size: $header--large;
+          color: $ui-10;
+        }
+
+        &__header-description {
+          color: $color-5;
+        }
       }
     }
   }

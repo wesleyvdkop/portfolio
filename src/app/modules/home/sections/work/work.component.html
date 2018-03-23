@@ -1,4 +1,4 @@
-<div class="section-work">
+<div class="section section-work">
   <div class="container">
     <h2 class="work__title">
       {{ 'WORK.TITLE' | translate }}
@@ -8,19 +8,23 @@
       {{ 'WORK.CAREER' | translate }}
     </h3>
 
-    <div class="career__container">
-      <div class="career">
-        <h4><a href="https://respond.nl" target="_blank">Respond</a></h4>
-        <span>{{ 'WORK.RESPOND.TITLE' | translate }}</span>
-        <span>{{ 'WORK.RESPOND.TIME' | translate }}</span>
-      </div>
+    <ul class="career__container">
+      <li class="career" *ngFor="let job of jobs">
+        <h4>
+          <a class="link link--line" href="{{ job.link }}" target="_blank">
+          {{ job.name }}
+          </a>
+        </h4>
 
-      <div class="career">
-        <h4><a href="https://mediamonks.com" target="_blank">Mediamonks</a></h4>
-        <span>{{ 'WORK.MEDIAMONKS.TITLE' | translate }}</span>
-        <span>{{ 'WORK.MEDIAMONKS.TIME' | translate }}</span>
-      </div>
-    </div>
+        <span>
+          {{ 'WORK.' + job.translationKeyTitle | translate }}
+        </span>
+
+        <span>
+          {{ 'WORK.' + job.translationKeyTime | translate }}
+        </span>
+      </li>
+    </ul>
 
     <h3 class="work__subtitle">
       {{ 'WORK.PROJECTS' | translate }}
@@ -28,10 +32,17 @@
 
     <div class="career__container">
       <div class="career">
-        <h4><a href="https://google.nl" target="_blank">{{ 'WORK.PROJECTS' | translate }}</a></h4>
-        <h4><a href="https://google.nl" target="_blank">{{ 'WORK.PROJECTS' | translate }}</a></h4>
-        <h4><a href="https://google.nl" target="_blank">{{ 'WORK.PROJECTS' | translate }}</a></h4>
-        <h4><a href="https://google.nl" target="_blank">{{ 'WORK.PROJECTS' | translate }}</a></h4>
+        <ul>
+          <li *ngFor="let project of projects">
+            <h4>
+              <a class="link link--line"
+                 href="{{ project.link }}"
+                 target="_blank">
+                {{ project.name }}
+              </a>
+            </h4>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

@@ -1,3 +1,25 @@
-<div class="section-about">
+<div class="section section-about">
 
+  <div class="content">
+    <span class="header-label">
+          {{ 'ABOUT.LABEL' | translate }}
+    </span>
+
+    <h2 class="header-title">
+          {{ 'ABOUT.TITLE' | translate }}
+      <ul class="header-title--extra">
+        <li>Reizen</li>
+        <li>Eten</li>
+        <li>Slapen</li>
+      </ul>
+    </h2>
+
+    <ul class="info-list">
+      <li *ngFor="let info of texts">
+        <p class="info"
+           [innerHTML]=" 'ABOUT.' + info.translationKey | translate ">
+        </p>
+      </li>
+    </ul>
+  </div>
 </div>

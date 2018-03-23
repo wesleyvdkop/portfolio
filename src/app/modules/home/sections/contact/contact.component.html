@@ -1,4 +1,4 @@
-<div class="section-contact">
+<div class="section section-contact">
   <div class="container">
 
     <div class="content">
@@ -10,8 +10,8 @@
         {{ 'CONTACT.TITLE' | translate }}
       </h2>
 
-      <h5 class="contact__description">
-        {{ 'CONTACT.DESCRIPTION' | translate }}
+      <h5 class="contact__description"
+          [innerHTML]=" 'CONTACT.DESCRIPTION' | translate ">
       </h5>
 
       <a class="btn" href="mailto:mail@wesleyvanderkop.nl">
@@ -23,12 +23,16 @@
       </a>
     </div>
 
-    <div class="social">
+    <footer class="social">
       <ul>
-        <li><a href="https://www.linkedin.com/in/wesley-van-der-kop-571951101">LinkedIn</a></li>
-        <li><a href="https://github.com/wesleyvdkop">Github</a></li>
-        <li><a href="https://stackoverflow.com/users/7063364/wesley-van-der-kop">Stack Overflow</a></li>
+        <li *ngFor="let social of socialmedia">
+          <a class="link"
+             href="{{ social.link }}"
+             target="_blank">
+            {{ social.name }}
+          </a>
+        </li>
       </ul>
-    </div>
+    </footer>
   </div>
 </div>

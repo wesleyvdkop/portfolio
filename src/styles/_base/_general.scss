@@ -22,23 +22,45 @@ a {
   text-decoration: none;
   position: relative;
 
-  &:after {
-    display: block;
-    content: " ";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 2px;
-    background-color: $tint-6;
-    transition: all 0.2s ease-out;
-  }
+  &.link {
+    transition: color 0.2s ease-in-out;
 
-  &:hover {
-    &:after {
-      width: 110%;
-      left: -5%;
+    &--white {
+
+      &:hover {
+        color: $ui-1;
+      }
     }
+
+    &--black {
+
+      &:hover {
+        color: $ui-10;
+      }
+    }
+
+    &--line {
+
+      &:after {
+        display: block;
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 2px;
+        background-color: $tint-6;
+        transition: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        &:after {
+          width: 110%;
+          left: -5%;
+        }
+      }
+    }
+
   }
 }

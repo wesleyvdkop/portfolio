@@ -1,8 +1,7 @@
 import {
-  Component,
+  Component, AfterViewInit
 } from '@angular/core';
 
-import anime from 'animejs';
 import { ScrollSpyModule, ScrollSpyService } from 'ng2-scrollspy';
 
 @Component({
@@ -15,4 +14,10 @@ export class HeadComponent {
   // constructor (
   //   private scrollSpyService: ScrollSpyService
   // ) {}
+  //
+  // ngAfterViewInit() {
+  //   this.scrollSpyService.getObservable('window').subscribe((e: any) => {
+  //     console.log('ScrollSpy::window: ', e);
+  //   });
+  // }
 }

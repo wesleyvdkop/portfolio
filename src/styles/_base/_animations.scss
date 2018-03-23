@@ -27,3 +27,34 @@
     transform: translateY(0);
   }
 }
+
+@keyframes wordList {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  4% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  24% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  28% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  35% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

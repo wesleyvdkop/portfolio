@@ -9,4 +9,47 @@ import {
 
 export class SectionWorkComponent {
 
+  /**
+   * Every job by name, link, translationKeyTitle, translationKeyTime
+   */
+  public jobs = [
+    {
+      name: 'Respond',
+      link: 'https://respond.nl',
+      translationKeyTitle: 'RESPOND.TITLE',
+      translationKeyTime: 'RESPOND.TIME'
+    },
+    {
+      name: 'Mediamonks',
+      link: 'https://mediamonks.com',
+      translationKeyTitle: 'MEDIAMONKS.TITLE',
+      translationKeyTime: 'MEDIAMONKS.TIME'
+    }
+  ];
+
+  /**
+   * Every project by name, link
+   */
+  public projects = [
+    {
+      name: 'Project',
+      link: 'https://google.com'
+    },
+    {
+      name: 'Project',
+      link: 'https://google.com'
+    },
+    {
+      name: 'Project',
+      link: 'https://google.com'
+    },
+    {
+      name: 'Project',
+      link: 'https://google.com'
+    },
+    {
+      name: 'Project',
+      link: 'https://google.com'
+    }
+  ];
 }

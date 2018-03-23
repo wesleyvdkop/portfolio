@@ -1,9 +1,10 @@
 // BASE
 @import './_base/_colors.scss';
 @import './_base/_fonts.scss';
+@import './_base/_mediaQueries.scss';
+@import './_base/fontSize';
 @import './_base/_general.scss';
 @import './_base/_animations.scss';
-@import './_base/_mediaQueries.scss';
 @import './_base/_mixins.scss';
 
 // MODULES
