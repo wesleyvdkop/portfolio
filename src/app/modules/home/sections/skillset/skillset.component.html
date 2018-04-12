@@ -1,0 +1,21 @@
+<div class="section section-about">
+
+  <div class="content">
+    <span class="header-label">
+          {{ 'SKILL-SET.LABEL' | translate }}
+    </span>
+
+    <h2 class="header-title">
+      {{ 'SKILL-SET.TITLE' | translate }}
+    </h2>
+
+    <ul class="info-list">
+      <li *ngFor="let info of texts">
+        <p class="info"
+           [innerHTML]=" 'SKILL-SET.' + info.translationKey | translate ">
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+

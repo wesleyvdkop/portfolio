@@ -9,6 +9,8 @@ import {
 
 export class SectionWorkComponent {
 
+  public hover = false;
+
   /**
    * Every job by name, link, translationKeyTitle, translationKeyTime
    */
@@ -30,26 +32,26 @@ export class SectionWorkComponent {
   /**
    * Every project by name, link
    */
-  public projects = [
-    {
-      name: 'Project',
-      link: 'https://google.com'
-    },
-    {
-      name: 'Project',
-      link: 'https://google.com'
-    },
-    {
-      name: 'Project',
-      link: 'https://google.com'
-    },
-    {
-      name: 'Project',
-      link: 'https://google.com'
-    },
-    {
-      name: 'Project',
-      link: 'https://google.com'
-    }
-  ];
+  // public projects = [
+  //   {
+  //     name: 'Project',
+  //     link: 'https://wesleyvanderkop.com'
+  //   },
+  //   {
+  //     name: 'Project',
+  //     link: 'https://wesleyvanderkop.com'
+  //   },
+  //   {
+  //     name: 'Project',
+  //     link: 'https://wesleyvanderkop.com'
+  //   },
+  //   {
+  //     name: 'Project',
+  //     link: 'https://wesleyvanderkop.com'
+  //   },
+  //   {
+  //     name: 'Project',
+  //     link: 'https://wesleyvanderkop.com'
+  //   }
+  // ];
 }

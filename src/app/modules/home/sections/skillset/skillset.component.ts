@@ -3,11 +3,11 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'wk-section-about',
-  templateUrl: './about.component.html'
+  selector: 'wk-section-skillset',
+  templateUrl: './skillset.component.html'
 })
 
-export class SectionAboutComponent {
+export class SectionSkillsetComponent {
 
   /**
    * Every text for about me

@@ -7,9 +7,16 @@
   "ABOUT": {
     "TITLE": "Developen tijdens het",
     "LABEL": "Over mij",
-    "INFO--FIRST": "Ik geniet van wat ik doe en je kunt mij ook vaak nog laat vinden met het zoeken naar nieuwe dingen. Wanneer ik niet voor mijn laptop zit dan ben ik graag aan het sporten zoals fitness, of andere leuke activiteiten doen met mijn vrienden.",
-    "INFO--SECOND": "Als je geintresseerd bent in waar ik mee bezig ben kan je ook naar <a class='link link--black' href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>LinkedIn</a> kijken of naar <a class='link link--black' href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>Github</a> of <a class='link link--black' href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>Dribbble</a>.",
-    "INFO--THIRD": "Het is mijn droom om ver te kunnen gaan reizen en meer te zien van de wereld en ook op andere plekken in de wereld mijn werk te kunnen verrichten. Ik sta altijd open voor een praatje als het maar over intressanten onderwerpen gaat."
+    "INFO--FIRST": "Ik geniet van wat ik doe en je kunt mij ook vaak nog laat vinden met het zoeken naar nieuwe dingen en uitdagingen. Wanneer ik niet voor mijn laptop zit dan ben ik graag aan het sporten zoals fitness of andere actieve bezigheden, of andere leuke activiteiten doen met mijn vrienden.",
+    "INFO--SECOND": "Momenteel werk ik bij Respond als front-end developer & designer. Als je geintresseerd bent in waar ik mee bezig ben kan je ook naar <a class='link link--black' href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>LinkedIn</a> kijken of naar <a class='link link--black' href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>Github</a> of <a class='link link--black' href='https://www.linkedin.com/in/wesley-van-der-kop-571951101/' target='_blank'>Dribbble</a>. Je kan ook altijd vragen aan mij stellen via <a class='link link--black' href='mailto:mail@wesleyvanderkop.nl'>mail@wesleyvanderkop.nl</a>.",
+    "INFO--THIRD": "Het is mijn droom om ver te kunnen gaan reizen en meer te zien van de wereld en ook op andere plekken in de wereld mijn werk te kunnen verrichten. Ik sta altijd open voor nieuwe uitdaginen ook sta ik altijd open voor een praatje als het maar over intressanten onderwerpen gaat."
+  },
+  "SKILL-SET": {
+    "TITLE": "Front-end Developen & Designen",
+    "LABEL": "Mijn skillset",
+    "INFO--FIRST": "Ik ben gespecialiseerd in het bouwen van webapplicaties, het werken in teams met scrum en agile, het ontwerpen van digitale producten. Ik geniet van het creëren van nieuwe digitale producten.",
+    "INFO--SECOND": "Maar aan welke skillset kan je dan een beetje denken? Natuurlijk de algemene kennis met html en css (scss), javascript en daarin verschillende frameworks / libraries waar onder anderen Angular en React. Ook heb ik kennis met het werken met Node.JS. En bij het designen liggen mijn skills bij de tools Sketch, Photoshop en Illustrator.",
+    "INFO--THIRD": "Tijdens mijn werk bij Respond & MediaMonks heb ik veel geleerd over werken in verschillende teams en met scrum en agile. Ook vind ik het altijd leuk om te horen hoe klanten met de producten omgaan en te zien of er ergens problemen mee zijn zodat deze meteen opgelost kunnen worden."
   },
   "WORK": {
     "TITLE": "Werk",
