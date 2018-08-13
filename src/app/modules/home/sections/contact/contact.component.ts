@@ -15,7 +15,7 @@ export class SectionContactComponent {
   public socialmedia = [
     {
       name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/wesley-van-der-kop-571951101'
+      link: 'https://www.linkedin.com/in/wesley-van-der-kop'
     },
     {
       name: 'Github',
