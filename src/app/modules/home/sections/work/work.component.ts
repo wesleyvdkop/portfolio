@@ -15,12 +15,12 @@ export class SectionWorkComponent {
    * Every job by name, link, translationKeyTitle, translationKeyTime
    */
   public jobs = [
-    {
-      name: 'Respond an Everbridge Company',
-      link: 'https://respond.nl',
-      translationKeyTitle: 'RESPOND_AN_EVERBRIDGE_COMPANY.TITLE',
-      translationKeyTime: 'RESPOND_AN_EVERBRIDGE_COMPANY.TIME'
-    },
+    // {
+    //   name: 'Respond an Everbridge Company',
+    //   link: 'https://respond.nl',
+    //   translationKeyTitle: 'RESPOND_AN_EVERBRIDGE_COMPANY.TITLE',
+    //   translationKeyTime: 'RESPOND_AN_EVERBRIDGE_COMPANY.TIME'
+    // },
     {
       name: 'Respond',
       link: 'https://respond.nl',
