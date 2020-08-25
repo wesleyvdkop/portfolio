@@ -7,6 +7,9 @@
   "ABOUT": {
     "TITLE": "Developing while traveling",
     "LABEL": "About me",
+    "TRAVELING": "Traveling",
+    "EATING": "Eating",
+    "SLEEPING": "Sleeping",
     "INFO--FIRST": "I enjoy what I do and you can often find me late searching for new things and challenges. When I'm not sitting in front of my laptop, then I'd like to work out like fitness or other activities, or do other fun activities with my friends.",
     "INFO--SECOND": "I currently work at Respond as a front-end developer & designer. If you are interested in what I'm doing, you can also view <a class='link link--black' href='https://www.linkedin.com/in/wesley-van-der-kop' target='_blank'>LinkedIn</a> or go to <a class='link link--black' href='https://github.com/wesleyvdkop' target='_blank'>Github</a> or <a class='link link--black' href='https://dribbble.com/wesleyvdkop' target='_blank'>Dribbble</a>. You can also always ask questions via <a class='link link--black' href='mailto:mail@wesleyvanderkop.nl'>mail@wesleyvanderkop.nl</a>.",
     "INFO--THIRD": "It's my dream to be able to travel far and see more of the world and to be able to do my work in other places in the world. I'm always open to new challenges and I'm always open to a chat when it comes to topics that are intriguing."
@@ -15,7 +18,7 @@
     "TITLE": "Front-end Development & Design",
     "LABEL": "My skillset",
     "INFO--FIRST": "I'm specialize in building web applications, working in teams with scrum and agile and designing digital products. I love creating new digital products.",
-    "INFO--SECOND": "But what kind of skills? Of course the general knowledge with html and css (scss), javascript and various frameworks / libraries including Angular and React. I also got some knowledge with working with Node.JS. And when it comes to designing, my skills lie with the tools Sketch, Photoshop and Illustrator.",
+    "INFO--SECOND": "But what kind of skills? Of course the general knowledge with html and css (scss), javascript and various frameworks / libraries including Angular and React. I also got some knowledge with working with Node.JS. And when it comes to designing, my skills are with the tools Sketch, Photoshop and Illustrator.",
     "INFO--THIRD": "During my work at Respond & MediaMonks I learned a lot about working in different teams and with scrum and agile. I also always like to hear how customers work with their products and see if there are any problems with them so that they can be solved immediately."
   },
   "WORK": {

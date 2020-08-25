@@ -30,6 +30,35 @@
     left: 50%;
     transform: translateX(-50%);
 
+    .language-selector {
+      display: flex;
+      justify-content: flex-end;
+      margin: 32px 0 0;
+
+      animation: fadeInDown 1s;
+
+      .language-item {
+        color: $ui-1;
+        text-transform: uppercase;
+
+        font-size: $header-label--small;
+        line-height: 1.4em;
+        letter-spacing: 0.21em;
+        font-weight: 400;
+        margin-right: 12px;
+
+        cursor: pointer;
+
+        &--active {
+          color: $tint-6;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
     .content {
       position: absolute;
       top: auto;
@@ -122,6 +151,10 @@
       transform: unset;
       left: unset;
 
+      .language-selector {
+        margin: 50px 0 0;
+      }
+
       .content {
         width: 80%;
         text-align: left;
@@ -172,6 +205,18 @@
 
     &__right-content {
       width: 60%;
+
+      .language-selector {
+        margin: 20px 20px 0 0;
+
+        .language-item {
+          color: $color-5;
+
+          &--active {
+            color: $tint-6;
+          }
+        }
+      }
 
       .content {
         position: absolute;

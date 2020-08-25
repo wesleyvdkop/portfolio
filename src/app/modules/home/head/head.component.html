@@ -5,6 +5,14 @@
     <animated-field></animated-field>
   </div>
   <div class="container__right-content">
+    <div class="language-selector">
+      <span class="language-item"
+            (click)="switchLanguage('en')"
+            [ngClass]="{'language-item--active': currentLanguage === 'en'}">EN</span>
+      <span class="language-item"
+            (click)="switchLanguage('nl')"
+            [ngClass]="{'language-item--active': currentLanguage === 'nl'}">NL</span>
+    </div>
     <div class="content">
       <div class="content__header">
 

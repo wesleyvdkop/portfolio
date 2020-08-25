@@ -1,23 +1,27 @@
-import {
-  Component, AfterViewInit
-} from '@angular/core';
-
-import { ScrollSpyModule, ScrollSpyService } from 'ng2-scrollspy';
+import { AfterViewInit, Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'wk-head',
   templateUrl: './head.component.html'
 })
 
-export class HeadComponent {
+export class HeadComponent implements AfterViewInit {
+  public currentLanguage: string = 'en';
 
-  // constructor (
-  //   private scrollSpyService: ScrollSpyService
-  // ) {}
-  //
-  // ngAfterViewInit() {
-  //   this.scrollSpyService.getObservable('window').subscribe((e: any) => {
-  //     console.log('ScrollSpy::window: ', e);
-  //   });
-  // }
+  constructor(
+    public translateService: TranslateService
+  ) {
+  }
+
+  public ngAfterViewInit(): void  {
+    setTimeout(() => {
+      this.currentLanguage = this.translateService.currentLang;
+    });
+  }
+
+  public switchLanguage(language: string) {
+    this.translateService.use(language);
+    this.currentLanguage = language;
+  }
 }
